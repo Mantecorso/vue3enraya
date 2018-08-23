@@ -1,48 +1,21 @@
 <template>
   <div id="app">
-    <!-- <div class="headerGrid">
+    <div class="headerGrid">
       <div>
-        <img src="./assets/logo.png" class="logo">
+        <a href="https://vuejs.org" target="_blank"><img src="./assets/logo.png" class="logo"></a>  
       </div>
       <div>
         <h1>Juego del tres en raya</h1>
       </div>
       <div>
-        <img src="./assets/luislogo.png" class="logo" alt="">
+        <a href="https://mantecorso.github.io/LuisJuradoQ/" target="_blank"><img src="./assets/L.png" class="logo" alt=""></a>
       </div>
-    </div> -->
+    </div>  
+     
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <ul>
-      <li>
-        <a href="https://vuejs.org" target="_blank">Core Docs</a>
-      </li>
-      <li>
-        <a href="https://forum.vuejs.org" target="_blank">Forum</a>
-      </li>
-      <li>
-        <a href="https://chat.vuejs.org" target="_blank">Community Chat</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/vuejs" target="_blank">Twitter</a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a href="http://router.vuejs.org/" target="_blank">vue-router</a>
-      </li>
-      <li>
-        <a href="http://vuex.vuejs.org/" target="_blank">vuex</a>
-      </li>
-      <li>
-        <a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a>
-      </li>
-      <li>
-        <a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a>
-      </li>
-    </ul>
+    <h3>Tonto el que lo lea</h3>
   </div>
 </template>
 
