@@ -24,16 +24,18 @@
     name: 'app',
     data() {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        msg: 'Welcome to Your Vue.js App'        
       }
     }
+
   }
 
 </script>
 
 <style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+   
+    font-family: 'Griffy', cursive;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -45,6 +47,11 @@
   h2 {
     font-weight: normal;
   }
+
+.red {
+  background-color: palevioletred;
+  border-radius: 8px;
+}
 
   ul {
     list-style-type: none;
