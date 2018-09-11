@@ -35,8 +35,7 @@
       </div>
       <div class="col-12 espace">
 
-              <a href="javascript:location.reload()">
-                <button type="button" class="btn btn-warning">Reiniciar</button></a>
+         <b-button type="button" variant="warning" href="javascript:location.reload()" >Reiniciar</b-button>
 
       </div>
 
@@ -78,7 +77,7 @@
             this.jugador = 1;
           }
         } else {
-          alert("No puedes pulsar sobre una celda ya seleccionada por otro jugador");
+          swal("Oops!", "No puedes pulsar sobre una celda ya seleccionada por otro jugador", "error")
         }
         this.dibujar();
         var r = this.ganador();
@@ -86,13 +85,28 @@
           case 0:
             break;
           case 1:
-            alert("¡Ganó el jugador X!");
+            swal({
+              title: "Has ganado X!!",
+              text: "Pulsa el boton reiniciar para volver a jugar",
+              icon: "success",
+              button: "Winner",
+            })
             break;
           case 2:
-            alert("¡Ganó el jugador O!");
+            swal({
+              title: "Has ganado O!!",
+              text: "Pulsa el boton reiniciar para volver a jugar",
+              icon: "success",
+              button: "Winner",
+            })
             break;
           case 3:
-            alert("¡Empate!");
+            swal({
+              title: "Empate!!",
+              text: "Pulsa el boton reiniciar para volver a jugar",
+              icon: "success",
+              button: "Next",
+            });
             break;
         }
       },
